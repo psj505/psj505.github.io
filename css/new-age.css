@@ -222,8 +222,16 @@ header.masthead .device-container .screen img {
     max-width: 325px;
   }
 }
+
+/*** me ***/
+
+section { /* Override all sections so there is no pading (inparticular bottom padding) */
+	padding: 50px 0 0 0;
+}
+
 #services {
-	min-height: 775px;
+	/* background-color: rgba(0, 0, 0, 0.5); */
+  	min-height: 775px;
 }
 
 #portfolio {
@@ -232,6 +240,16 @@ header.masthead .device-container .screen img {
 #contact {
 	min-height: 775px;
 }
+
+#footer{
+  	background-image: url("../img/DepthBgFlat.png");
+  	background-position: center;
+  	background-size: cover;
+	
+}
+?** me end  ***/
+
+
 section.download {
   position: relative;
   padding: 150px 0;
