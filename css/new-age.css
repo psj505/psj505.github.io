@@ -313,13 +313,13 @@ img.mini-solitiare-img {
 }
 
 img.mini-shootemup-img {
-	max-width:200px;
+	max-height:120px;
 	
 	margin: 15px 0px 0 0;
 }
 img.asteroids-img {
-	width: 250px;
-	height:auto;
+	max-height:110px;
+	
 	
 	
 	/*margin: 15px 12px 50px 0;*/
