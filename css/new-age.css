@@ -11,12 +11,14 @@ body {
 }
 
 body {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
-background: url("../img/bg-pattern.png"); /* #7b4397; -blue #007bff, #7b4397; - purple /*
-  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight:100;
+  	/*font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';*/
+	background: url("../img/bg-pattern.png"); /* #7b4397; -blue #007bff, #7b4397; - purple /*
+  	background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
+  	background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
 	*/
-  background-attachment: fixed;
+ 	background-attachment: fixed;
 }
 
 a {
@@ -27,7 +29,8 @@ a {
 }
 
 a:hover, a:focus {
-  color: #fcbd20;
+  /*color: #fcbd20;*/
+  color:#000000;
 }
 
 hr {
